@@ -1,0 +1,47 @@
+ .back{
+    height: 600px;
+    width: 600px;
+    background-image: url("https://wallpaperaccess.com/full/1238364.jpg");
+    border: 1px solid black;
+    font-size: 100px;
+    background-size: 100% 100%;
+    color: transparent;
+    background-clip: text;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    box-shadow: 0px 0px 10px 5px black;
+
+}
+.one{
+    height: 500px;
+    width: 500px;
+    background-color: green;
+    position: relative;
+    
+}
+.second{
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    background-color: pink;
+    top: 0px;
+} */
+ body{
+    height: 200svh;
+ }
+ .parent{
+    height: 100px;
+    width: 100px;
+    background-color: green;
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+ }
+.sticky{
+    height: 100px;
+    width: 100%;
+    background-color: brown;
+    position: sticky;
+    top: 50px;
+}
